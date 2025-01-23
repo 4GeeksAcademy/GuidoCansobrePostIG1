@@ -5,13 +5,13 @@ body {
 }
 
 .cuadroGeneral {
+    box-shadow: 0 0.1rem 0.4rem black;
     background: white;
-    
     padding: 0px;
     margin: 0 auto;
     width: 500px;
     height: 620px;
-    border-radius: 2%;
+    border-radius: 1%;
 }
 
 .cuadroSuperior {
@@ -26,8 +26,9 @@ body {
     justify-content: flex-start;
 }
 .imagenSuperiorIzquierda {
-  font-size: 30px;
-  padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
 }
 
 .izquierdaSup p {
@@ -38,6 +39,7 @@ body {
 }
 
 .derechaSup {
+    cursor: pointer;
     font-size: 30px;
     padding: 10px;
     margin-left: auto;
@@ -81,10 +83,19 @@ body {
 
 .cuadroInferior span {
     font-weight: bold;
-    cursor: pointer;
 }
 
 .textoSuave {
     font-weight: 350;
 
 }
+ :hover.cuadroInferior a{
+    color: lightblue;
+    cursor: pointer;
+    font-weight: bold;
+ }
+
+ .cuadroInferior a{
+    font-weight: bold;
+    color: black;
+ }
