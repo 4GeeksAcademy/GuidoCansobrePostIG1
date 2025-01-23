@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: lightsteelblue;
+}
+
+.cuadroGeneral {
+    background: white;
+    padding-left: 11px;
+    padding: 0px;
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+}
+
+.cuadroSuperior {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; /* Espacia los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #f8f9fa; 
+}
+
+.imagenSuperiorIzquierda {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray; 
+    margin-left: 10px;
+}
+
+.izquierdaSup {
+    padding-left: 40px;
+}
+
+.derechaSup {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray; 
+    margin-right: 10px;
+}
+
+.imagen img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.cuadroInferior {
+    width: 100%;
+    height: 100px;
+    background-color: #e9ecef; /* Color de fondo opcional */
+}
+
+.textoSuave {
+    font-weight: 100;
+}
+span {
+    font-weight: bold;
+}
