@@ -6,54 +6,85 @@ body {
 
 .cuadroGeneral {
     background: white;
-    padding-left: 11px;
+    
     padding: 0px;
     margin: 0 auto;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 620px;
+    border-radius: 2%;
 }
 
 .cuadroSuperior {
     width: 500px;
-    height: 100px;
+    height: 60px;
     display: flex;
-    justify-content: space-between; /* Espacia los elementos horizontalmente */
-    align-items: center; /* Centra verticalmente los elementos */
-    background-color: #f8f9fa; 
+    align-items: center; 
+    background-color: white; 
 }
 
+.cuadroSuperior p {
+    justify-content: flex-start;
+}
 .imagenSuperiorIzquierda {
-    width: 50px;
-    height: 50px;
-    background-color: lightgray; 
-    margin-left: 10px;
+  font-size: 30px;
+  padding: 10px;
 }
 
-.izquierdaSup {
-    padding-left: 40px;
+.izquierdaSup p {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .derechaSup {
-    width: 50px;
-    height: 50px;
-    background-color: lightgray; 
-    margin-right: 10px;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: auto;
 }
 
 .imagen img {
-    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 500px;
+    height: auto;
 }
 
+.imagenes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 5px 0px 5px;
+}
+
+.imagenes i {
+    font-size: 30px;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    border: 5px
+}
+.logoGuardar {
+    margin-left: auto;
+    padding: 10px;
+}
+
+
 .cuadroInferior {
-    width: 100%;
-    height: 100px;
-    background-color: #e9ecef; /* Color de fondo opcional */
+    width: 90%;
+    max-width: 500px;
+    padding-left: 10px;
+}
+
+.cuadroInferior p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.cuadroInferior span {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .textoSuave {
-    font-weight: 100;
-}
-span {
-    font-weight: bold;
+    font-weight: 350;
+
 }
