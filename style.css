@@ -1,20 +1,20 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background-color: #f5f5dc;
-    
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .cuadroGeneral {
-    box-shadow: 0 0.1rem 0.4rem black;
+    box-shadow: 0 0.1rem 0.4rem white;
     background: white;
     padding: 0px;
-    margin: 30px auto;
     width: 500px;
     height: 620px;
-    border-radius: 2%; 
+    border-radius: 1%;
 }
-
 .cuadroSuperior {
     border-radius: 15%;
     width: 500px;
@@ -23,27 +23,22 @@ body {
     align-items: center; 
     background-color: white; 
 }
-
 .cuadroSuperior p {
     justify-content: flex-start;
 }
 .imagenSuperiorIzquierda {
-    
     cursor: pointer;
     font-size: 30px;
     padding: 10px;
 }
-
 .izquierdaSup p {
     margin: 0;
     padding-left: 10px;
     font-size: 12px;
     font-weight: 700;
 }
-
 .textoSuave {
     font-weight: 350;
-
 }
 .derechaSup {
     cursor: pointer;
@@ -51,19 +46,16 @@ body {
     padding: 10px;
     margin-left: auto;
 }
-
 .imagen img {
     width: 500px;
     height: auto;
 }
-
 .imagenes {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 10px 5px 0px 5px;
 }
-
 .imagenes i {
     font-size: 30px;
     cursor: pointer;
@@ -75,33 +67,21 @@ body {
     margin-left: auto;
     padding: 10px;
 }
-
-
 .cuadroInferior {
     width: 90%;
     max-width: 500px;
     padding-left: 10px;
 }
-
 .cuadroInferior p {
     margin: 5px 0;
     font-size: 14px;
 }
-
-.cuadroInferior span {
+.cuadroInferior a{
     font-weight: bold;
+    color: black;
 }
-
- .cuadroInferior a:hover{
+.cuadroInferior a:hover{
     color: lightblue;
     cursor: pointer;
     font-weight: bold;
- }
- .cuadroInferior a {
-    text-decoration: none;
- }
-
- .cuadroInferior a{
-    font-weight: bold;
-    color: black;
- }
+}
