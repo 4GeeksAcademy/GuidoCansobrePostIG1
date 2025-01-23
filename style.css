@@ -1,20 +1,22 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background-color: lightsteelblue;
+    background-color: #f5f5dc;
+    
 }
 
 .cuadroGeneral {
     box-shadow: 0 0.1rem 0.4rem black;
     background: white;
     padding: 0px;
-    margin: 0 auto;
+    margin: 30px auto;
     width: 500px;
     height: 620px;
-    border-radius: 1%;
+    border-radius: 2%; 
 }
 
 .cuadroSuperior {
+    border-radius: 15%;
     width: 500px;
     height: 60px;
     display: flex;
@@ -26,6 +28,7 @@ body {
     justify-content: flex-start;
 }
 .imagenSuperiorIzquierda {
+    
     cursor: pointer;
     font-size: 30px;
     padding: 10px;
@@ -38,6 +41,10 @@ body {
     font-weight: 700;
 }
 
+.textoSuave {
+    font-weight: 350;
+
+}
 .derechaSup {
     cursor: pointer;
     font-size: 30px;
@@ -85,14 +92,13 @@ body {
     font-weight: bold;
 }
 
-.textoSuave {
-    font-weight: 350;
-
-}
- :hover.cuadroInferior a{
+ .cuadroInferior a:hover{
     color: lightblue;
     cursor: pointer;
     font-weight: bold;
+ }
+ .cuadroInferior a {
+    text-decoration: none;
  }
 
  .cuadroInferior a{
